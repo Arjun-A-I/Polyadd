@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 struct poly
 {
     int coeff;
@@ -12,11 +13,11 @@ void display(struct poly [],int k);
 
 void main()
 {
-    printf("\nEnter the no of terms for polynomial 1 :");
+    printf("\nEnter the number of terms for polynomial 1 :");
     scanf("%d",&n1);
     readPoly(p1,n1);
     display(p1,n1);
-    printf("\nEnter the no of terms for polynomial 2 :");
+    printf("\nEnter the number of terms for polynomial 2 :");
     scanf("%d",&n2);
     readPoly(p2,n2);
     display(p2,n2);
