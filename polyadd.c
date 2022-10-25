@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+//define structure
 struct poly
 {
     int coeff;
@@ -29,7 +30,7 @@ void main()
 
 void readPoly(struct poly p[100],int n)
 {
-    printf("Enter Details in Decending order of degree\n");
+    printf("Enter Details in Decending order of Degree\n");
     for(i=0;i<n;i++)
     {
         printf("Enter Coeff\n");
